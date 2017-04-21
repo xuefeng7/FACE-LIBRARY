@@ -68,7 +68,7 @@ The following is one face example in JSON format. **Note that one post may conta
 ```
 For the above post, only one face is detected, and the uid is _3040732185_, and pid is _1409317677457159168_.
 ## How to retrieve post
-We can retrive Instagram post via *pid*; however, Instagram does not explicitly utilize *pid* to represent a link to a specific image, instead it utilizes shortcode. Generating shortcode from *pid* requires more work. [Here]() is a detailed explaination about the logic behind how to construct shortcode. But we have included a complimentary converter (id2code.py) in this repository. Simply call
+We can retrive Instagram post via *pid*; however, Instagram does not explicitly utilize *pid* to represent a link to a specific image, instead it utilizes shortcode. Generating shortcode from *pid* requires more work. [Here](http://carrot.is/coding/instagram-ids) is a detailed explaination about the logic behind how to construct shortcode. But we have included a complimentary converter (id2code.py) in this repository. Simply call
 ```python
   python id2code 1467331451728886737 (or your own pid)
 ```
