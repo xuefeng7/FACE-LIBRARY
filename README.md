@@ -7,7 +7,7 @@ We collected all faces from all acquired posts. We also recorded the timestamp, 
 ## Face detection (services provided by Face++)
 For each face, the included attributes are age, gender, race, and smiling. Along with face width and height, five facial landmarks are provided. They are eye_left, eye_right, nose, mouth_left, mouth_right, and center. The following figure illustrates the facial landmarks.
 
-<img src="https://github.com/xuefeng7/FACE-LIBRARY/blob/master/examples/landmarks.jpg" width="120">
+<img src="https://github.com/xuefeng7/FACE-LIBRARY/blob/master/examples/landmarks.jpg" width="180">
 
 ## Example
 The following is one face example in JSON format. **Note that one post may contain more than one face**. 
