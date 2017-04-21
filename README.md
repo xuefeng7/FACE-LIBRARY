@@ -5,7 +5,10 @@ Instagram is a rich source for high-quality images, we believe those images can 
 ## Timeline post
 We collected all faces from all acquired posts. We also recorded the timestamp, user_id, and post_id for each post, so that one can retrieve post from Instagram easily.
 ## Face detection (services provided by Face++)
-For each face, the included attributes are age, gender, race, and smiling. Along with face width and height, five facial landmarks are provided. They are eye_left, eye_right, nose, mouth_left, mouth_right, and center. 
+For each face, the included attributes are age, gender, race, and smiling. Along with face width and height, five facial landmarks are provided. They are eye_left, eye_right, nose, mouth_left, mouth_right, and center. The following figure illustrates the facial landmarks.
+
+![alt text](https://github.com/xuefeng7/FACE-LIBRARY/examples/landmarks.jpg)
+
 ## Example
 The following is one face example in JSON format. **Note that one post may contain more than one face**. 
 ```json
