@@ -66,7 +66,7 @@ The following is one face example in JSON format. **Note that one post may conta
   	"uid_pid": "3040732185_1409317677457159168.jpg"
   }
 ```
-For the above post, only one face is detected, and the uid is 3040732185, and pid is 1409317677457159168.
+For the above post, only one face is detected, and the uid is _3040732185_, and pid is _1409317677457159168_.
 ## How to retrieve post
 We can retrive Instagram post via *pid*; however, Instagram does not explicitly utilize *pid* to represent a link to a specific image, instead it utilizes shortcode. Generating shortcode from *pid* requires more work. [Here]() is a detailed explaination about the logic behind how to construct shortcode. But we have included a complimentary converter (id2code.py) in this repository. Simply call
 ```python
