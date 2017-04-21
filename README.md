@@ -4,7 +4,7 @@ This repository contains million of analyzed faces obtained from Instagram posts
 Instagram is a rich source for high-quality images, we believe those images can be tremendously helpful to the research community; however, Instagram restricts its API accesses to company only, and it builds many barricades for web crawlers. Thus, we decide to share the Instagram posts we retrieved. Further and more importantly, since detecting faces can cost numerous time and computing power, we share all those processed faces with the hope of saving time and efforts, facilitating the research for whom may concern.  
 ## Timeline post
 We collected all faces from all acquired posts. We also recorded the timestamp, user_id, and post_id for each post, so that one can retrieve post from Instagram easily.
-## Face detection (services provided by Face++)
+## Face detection (powered by Face++)
 For each face, the included attributes are age, gender, race, and smiling. Along with face width and height, five facial landmarks are provided. They are eye_left, eye_right, nose, mouth_left, mouth_right, and center. The following figure illustrates the facial landmarks.
 
 <img src="https://github.com/xuefeng7/FACE-LIBRARY/blob/master/examples/landmarks.jpg" width="180">
