@@ -1,5 +1,5 @@
 # FACE-LIBRARY
-This repository contains million of analyzed faces obtained from Instagram posts. We have included the face attributes(age, gender, race, and etc.) and facial landmarks for each of these faces. 
+This repository contains 690,269 of analyzed faces obtained from Instagram posts. We have included the face attributes(age, gender, race, and etc.) and facial landmarks for each of these faces. 
 # Goal
 Instagram is a rich source for high-quality images, we believe those images can be tremendously helpful to the research community; however, Instagram restricts its API accesses to company only, and it builds many barricades for web crawlers. Thus, we decide to share the Instagram posts we retrieved. Further and more importantly, since detecting faces can cost numerous time and computing power, we share all those processed faces with the hope of saving time and efforts, facilitating the research for whom may concern.  
 ## Timeline post
