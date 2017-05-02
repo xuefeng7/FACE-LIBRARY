@@ -70,7 +70,7 @@ For the above post, only one face is detected, and the uid is _3040732185_, and 
 ## How to retrieve post
 We can retrive Instagram post via *pid*; however, Instagram does not explicitly utilize *pid* to represent a link to a specific image, instead it utilizes shortcode. Generating shortcode from *pid* requires more work. [Here](http://carrot.is/coding/instagram-ids) is a detailed explaination about the logic behind how to construct shortcode. But we have included a complimentary converter (id2code.py) in this repository. Simply call
 ```python
-  python id2code 1467331451728886737 (or your own pid)
+  python id2code.py 1467331451728886737 (or your own pid)
 ```
 you will get the short code
 ```python
@@ -80,3 +80,15 @@ If you want the post directly, there is a function named *generateUrl* for help.
 ```python
   'https://scontent-ord1-1.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/17077495_255710568218080_4361264754778439680_n.jpg'
 ```
+### A full post retrieving example
+As mentioned above, first running
+```python
+  python id2code.py 1467331451728886737
+```
+and, we can get the post's short-code, and the post's media address, where you can obtain the image directly.
+```python
+   'BRdAi5cDvvR' # short-code
+   'https://scontent-ort2-1.cdninstagram.com/t51.2885 15/s640x640/sh0.08/e35/17077495_255710568218080_4361264754778439680_n.jpg' # image address
+```
+Then, with the image address, you can either view the image through the browser, or use any code to download it to your disk, and etc.
+
