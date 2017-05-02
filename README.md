@@ -91,5 +91,7 @@ and, we can get the post's short-code, and the post's media address, where you c
    'https://scontent-ort2-1.cdninstagram.com/t51.2885 15/s640x640/sh0.08/e35/17077495_255710568218080_4361264754778439680_n.jpg' # image address
 ```
 Then, with the image address, you can either view the image through the browser, or use any code to download it to your disk, and etc. In this case:
+
 <img src="https://github.com/xuefeng7/FACE-LIBRARY/blob/master/figures/retrieve_example.JPG" width="180">
+
 user face is blurred for privacy consideration.
